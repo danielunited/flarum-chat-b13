@@ -1,0 +1,64 @@
+pushedx-chat:
+  forum:
+    toolbar:
+      title: Chat
+      enable_sounds: Enable sounds
+      disable_sounds: Disable sounds
+      enable_notifications: Enable notifications
+      disable_notifications: Disable notifications
+      minimize: Minimize
+      maximize: Maximize
+    chat:
+      list:
+        pin: Pin panel
+        unpin: Unpin panel
+        placeholder: Search
+        preview:
+          empty: No messages
+        add_modal: 
+          title: Select users
+          chat: Chat
+          channel: Channel
+          create.chat: Create a new chat
+          create.channel: Create a new channel
+          form:
+            title.chat: Chat name
+            title.channel: Channel name
+            title: Chat name
+            title.validator: At least 1 symbol
+            users: Selected users
+          search:
+            placeholder: Search Users
+            failed: No matching users found
+            invited: Invited
+      placeholder: Type your message...
+      message:
+        actions:
+          hide: Hide
+          resend: Resend
+        censored: Log in to see this message!
+        deleted: deleted by 
+        deleted_forever: deleted forever by
+    errors:
+      unauthenticated: Only registered users can use the chat
+      chatdenied: Your user group is not allowed to write messages
+  admin:
+    permissions:
+      post: Post chat messages
+      edit: Edit chat messages
+      delete: Delete chat messages
+      moderate:
+        delete: Delete chat messages
+        vision: See deleted messages
+
+    settings:
+      title: Chat settings
+      charlimit: Maximum characters in the message
+      floodgate:
+        title: Antiflood
+        number: Number of messages in a row
+        time: Over a period
+      display:
+        title: Display
+        minimize: Minimize initially
+        censor: Censoring messages for unauthorized users

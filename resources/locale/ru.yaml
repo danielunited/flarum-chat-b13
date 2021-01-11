@@ -1,0 +1,63 @@
+pushedx-chat:
+  forum:
+    toolbar:
+      title: Чат
+      enable_sounds: Включить звуковые уведомления
+      disable_sounds: Отключить звуковые уведомления
+      enable_notifications: Включить push-уведомления
+      disable_notifications: Отключить push-уведомления
+      minimize: Свернуть
+      maximize: Развернуть
+    chat:
+      list:
+        pin: Закрепить панель
+        unpin: Открепить панель
+        placeholder: Поиск
+        preview:
+          empty: Нет сообщений
+        add_modal: 
+          title: Выберите пользователей
+          chat: Чат
+          channel: Канал
+          create.chat: Создать чат
+          create.channel: Создать канал
+          form:
+            title.chat: Название чата
+            title.channel: Название канала
+            title.validator: Хотя бы один символ
+            users: Выбранные пользователи
+          search:
+            placeholder: Поиск пользователей
+            failed: Ничего не найдено по запросу
+            invited: Приглашены
+      placeholder: Напишите сообщение...
+      message:
+        actions:
+          hide: Скрыть
+          resend: Отправить еще раз
+        censored: Авторизируйтесь, чтобы увидеть это сообщение!
+        deleted: удалено 
+        deleted_forever: удалено навсегда
+    errors:
+      unauthenticated: Писать в чате могут только зарегистрированные пользователи
+      chatdenied: Вашей группе пользователей запрещено писать сообщения
+  admin:
+    permissions:
+      post: Отправлять чат сообщения
+      edit: Править чат сообщения
+      delete: Удалять чат сообщения
+      moderate:
+        delete: Удалять чат сообщения
+        vision: Видеть удаленные сообщения
+        
+    settings:
+      title: Настройки чата
+      charlimit: Максимум символов в сообщении
+      floodgate:
+        title: Антифлуд
+        number: Количество сообщений подряд
+        time: За промежуток времени
+      display:
+        title: Отображение
+        minimize: Минимизировать изначально
+        censor: Цензура сообщений для неавторизованных
